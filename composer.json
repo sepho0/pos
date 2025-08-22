@@ -1,0 +1,14 @@
+{
+    "name": "rachellealtidor/practice",
+    "autoload": {
+        "psr-4": {
+            "Rachellealtidor\\Practice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sephora"
+        }
+    ],
+    "require": {}
+}

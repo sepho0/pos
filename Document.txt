@@ -1,0 +1,33 @@
+When making a PHP application the first command that you will need it to run the following commands.
+1- you will run the "composer init"
+2- you will run the "composer install"
+After that you will follow the following structure to help maintaining the app and to know where each files are.
+├── Document.txt
+├── composer.json
+├── composer.lock
+├── public
+│   ├── css
+│   ├── images
+│   └── js
+├── src
+│   ├── config
+│   ├── controller
+│   └── dao
+├── vendor
+│   ├── autoload.php
+│   └── composer
+│       ├── ClassLoader.php
+│       ├── InstalledVersions.php
+│       ├── LICENSE
+│       ├── autoload_classmap.php
+│       ├── autoload_namespaces.php
+│       ├── autoload_psr4.php
+│       ├── autoload_real.php
+│       ├── autoload_static.php
+│       ├── installed.json
+│       └── installed.php
+└── views
+
+the Js, Css, images, will be inside of the public folder 
+The controllers, database config, Sql request (DAO) will be inside of the src folder 
+and for finish the frontend of the application will be inside of the views folder.

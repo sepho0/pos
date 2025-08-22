@@ -1,0 +1,42 @@
+TARREA DE OFFICINA Y CASA
+
+MODULES
+
+users
+currency
+transactions
+roles
+produit
+
+1- the application will have 2 roles superadmin/cashier
+2- the superadmin will be able to add currency , roles and Products
+3- the cashier will only be able to make transactions 
+4- the app will have a sidebar , navbar(header), footer and a dashboard
+5- the database will be mysql and ajax must be used
+6- the files will be separated controller, database config and the frontend will be seperated
+7- the role table in the database should initially have the role superadmin
+8- the application should a login/register authentification
+
+OPTIONAL
+
+1- the dashboard will have the following information => number of transaction, roles, users,product and currency
+
+PLAN
+
+1- the product form should have => id, name, price, currency
+2- the currency form will have => id, Abbvr, name, symbol
+3- transaction form will have => product name (from a select that is showing all of the product inserted in the database)
+4- roles form will have => id, role_name, 
+5-user form will have id, username, password, role_id
+
+GOAL
+
+the application goal is to sell products and to track the transactions made.
+
+RESTRICTION
+
+the cashier should not be able to => see the currency, roles, products modules in the sidebar and should not be able to have a CRUD operation on them. 
+
+DEALINEEEEEEEEEEEEEE
+
+20 aout 2025
